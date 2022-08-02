@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #fff;
+    --secondary-color: rgb(0, 0, 0);
+    --primary-font: 'Libre Baskerville';
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: var(--secondary-font);
+}
+
+.header{
+    .logo{
+        display: block;
+        margin-left: 25%;
+        margin-right: auto;
+        width: 45%;
+    }
+
+    .deskripsi-awal{
+        margin: 5em auto;
+        width: 50%;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .visual{
+        display: flex;
+        align-items: center;
+        margin: 5em auto 0em auto;
+        width: 80%;
+        .line-visual{
+            transform: rotate(180deg);
+            text-align: center;
+            width: 25%;
+            height: 2px;
+            border: none;
+            background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2),
+                                             (rgba(0, 0, 0, 0.5)),
+                                             (rgba(0, 0, 0, 0.5)),
+                                             (rgba(0, 0, 0, 0.2)));
+            margin: 0 auto 0 auto;
+        }
+        p{
+            text-align: center;
+            font-family: var(--primary-font);
+            font-size: 2rem;
+            margin: 0 -1.5em;
+            font-weight: 100;
+        }
+    }
+
+    .deskripsi-visual{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin: -2em auto 0 auto;
+
+        .visual{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .satu, .dua, .tiga{
+            flex: 1;
+            img{
+                width: 25%;
+                height: 25vh;
+            }
+            .tema{
+                font-family: var(--primary-font);
+                font-weight: 100;
+                color: rgb(223, 159, 41);
+                text-transform: uppercase;
+                font-size: 1.7rem;
+                letter-spacing: 0.1em;
+                margin-bottom: 1em;
+                span{
+                    font-size: 2.5rem;
+                    color: rgb(201, 143, 37);
+                }
+            }
+
+            p{
+                font-size: 1.15rem;
+                margin-bottom: 0.3em;
+                font-family: var(--secondary-font);
+                font-weight: 300;
+            }
+        }
+    }
+
+    .line-header{
+        transform: rotate(180deg);
+        text-align: center;
+        width: 70%;
+        height: 2px;
+        border: none;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2),
+                                         (rgba(0, 0, 0, 0.5)),
+                                         (rgba(0, 0, 0, 0.5)),
+                                         (rgba(0, 0, 0, 0.2)));
+        margin: 5.5em auto 5.5em auto;
+    }
+
+    .img-karakter{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .deskripsi-karakter{
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        width: 45%;
+        margin: auto;
+        margin-top: 2em;
+        .karakter{
+            text-align: center;
+            font-family: var(--primary-font);
+            text-transform: uppercase;
+            color: rgb(201, 143, 37);
+            font-size: 2.5rem;
+            margin-top: 1em;
+            font-weight: 500;
+        }
+        .deskripsi-awal-karakter{
+            font-family: var(--secondary-font);
+            text-align: center;
+            font-weight: 300;
+        }
+        h1, h2, h3, h4, p{
+            font-family: var(--primary-font);
+        }
+
+        h1{ font-size: 3em; }  h2{ font-size: 2.5em; } 
+        h3{ font-size: 2em; }  h4{ font-size: 1.5em; }
+        p { font-size: 1em; }
+    }
+
+    .header-akhir{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+        gap: 3em;
+        text-align: center;
+
+        p{
+            font-weight: 300;
+        }
+
+        .pesan-akhir{
+            font-family: var(--primary-font);
+            text-align: center;
+            font-size: 2rem;
+            line-height: 1.4em;
+            margin-bottom: 3em;
+
+            a{
+                text-decoration: none;
+                color: rgb(201, 143, 37);
+                cursor: pointer;
+            }
+        }
+    }
+}
+.selingan-satu{
+    width: 100%;
+    img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Libre+Caslon+Text&family=Roboto+Mono&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: #7cbe7c;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+body .background-body {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+body .header {
+  height: 100vh;
+  width: 100vw;
+}
+
+body .header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+body .header .navbar .logo {
+  height: 10%;
+  width: 10%;
+  margin-left: 1.5em;
+  cursor: pointer;
+}
+
+body .header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4em;
+  margin-right: 1.5em;
+  cursor: pointer;
+}
+
+body .header .navbar ul li {
+  list-style: none;
+}
+
+body .header .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-align: none;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', sans-serif;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+}
+
+body .header .navbar ul li a:hover {
+  color: #7cbe7c;
+}
+
+body .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 5em;
+}
+
+body .hero .hero-satu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .hero .hero-satu .sub-hero-satu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  margin: 2.5em 0em 0em 3.5em;
+}
+
+body .hero .hero-satu .sub-hero-satu .vertical-line {
+  height: 186px;
+  color: blue;
+}
+
+body .hero .hero-satu .sub-hero-satu ul {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
+}
+
+body .hero .hero-satu .sub-hero-satu ul li {
+  list-style: none;
+}
+
+body .hero .hero-satu .sub-hero-satu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'IBM Plex Serif', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+}
+
+body .hero .hero-satu .sub-hero-satu ul li a:hover {
+  color: #7cbe7c;
+  opacity: 1;
+}
+
+body .hero .hero-satu .sub-hero-dua {
+  color: #fff;
+  line-height: 1.3em;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 3em 0em 2.2em 3.5em;
+  margin-right: 15em;
+  margin-bottom: -0.5em;
+}
+
+body .hero .hero-satu .sub-hero-dua h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.4em;
+  letter-spacing: 0.12em;
+}
+
+body .hero .hero-satu .sub-hero-dua p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .hero .hero-dua {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  gap: 0.5em;
+  margin-top: -1em;
+}
+
+body .hero .hero-dua .save {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), color-stop(rgba(13, 17, 18, 0.9)), color-stop(rgba(27, 27, 27, 0.9)), to(rgba(59, 59, 59, 0.9)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(13, 17, 18, 0.9), rgba(27, 27, 27, 0.9), rgba(59, 59, 59, 0.9));
+  margin: 0 3em 0 -3em;
+}
+
+body .hero .hero-dua .save .save-image {
+  height: 100%;
+  width: 45%;
+}
+
+body .hero .hero-dua .save .konten-hero-dua {
+  font-size: 0.7rem;
+  color: #fff;
+  margin-top: 1em;
+  margin-right: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: justify;
+}
+
+body .hero .hero-dua .save .konten-hero-dua p {
+  margin-top: 1em;
+}
+/*# sourceMappingURL=style.css.map */

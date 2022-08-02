@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Libre+Caslon+Text&family=Roboto+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: rgb(124, 190, 124);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    .background-body{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+
+    .header{
+        height: 100vh;
+        width: 100vw;
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2em;
+            .logo{
+                height: 10%;
+                width: 10%;
+                margin-left: 1.5em;
+                cursor: pointer;
+            }
+            ul{
+                display: flex;
+                gap: 4em;
+                margin-right: 1.5em;
+                cursor: pointer;
+                li{
+                    list-style: none;
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                        text-align: none;
+                        text-transform: uppercase;
+                        font-family: 'Roboto Mono', sans-serif;
+                        letter-spacing: 0.12em;
+                        font-weight: 500;
+                    }
+                    a:hover{
+                        color: rgb(124, 190, 124);
+                    }
+                }
+            }
+        }
+    }
+
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        gap: 5em;
+        .hero-satu{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
+            .sub-hero-satu{
+                display: flex;
+                gap: 1em;
+                margin: 2.5em 0em 0em 3.5em;
+                .vertical-line{
+                    height: 186px;
+                    // color: rgb(10%, rgb(255, 255, 255), rgb(187, 140, 140));
+                    color: blue;
+                }
+                ul{
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1em;
+                    li{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                            font-family: 'IBM Plex Serif', sans-serif;
+                            text-transform: uppercase;
+                            font-size: 0.7em;
+                            letter-spacing: 0.2em;
+                            font-weight: 500;
+                        }
+                        a:hover{
+                            color: rgb(124, 190, 124);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .sub-hero-dua{
+                color: #fff;
+                line-height: 1.3em;
+                background: rgba(0, 0, 0, 0.9);
+                padding: 3em 0em 2.2em 3.5em;
+                margin-right: 15em;
+                margin-bottom: -0.5em;
+
+                h2{
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    margin-bottom: 0.4em;
+                    letter-spacing: 0.12em;
+                }
+                p{
+                    font-size: 0.7rem;
+                    font-weight: 300;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+        }
+
+        .hero-dua{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 0.5em;
+            margin-top: -1em;
+            .save{
+                display: flex;
+                gap: 2em;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),
+                                            rgba(13, 17, 18, 0.9),
+                                            rgba(27, 27, 27, 0.9),
+                                            rgba(59, 59, 59, 0.9));
+                margin: 0 3em 0 -3em;
+                .save-image{
+                    height: 100%;
+                    width: 45%;
+                }
+                .konten-hero-dua{
+                    font-size: 0.7rem;
+                    color: #fff;
+                    margin-top: 1em;
+                    margin-right: 3em;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: justify;
+
+                    p{
+                        margin-top: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

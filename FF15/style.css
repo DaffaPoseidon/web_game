@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: rgb(0, 0, 0);
+  --primary-font: 'Libre Baskerville';
+  --secondary-font: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: var(--secondary-font);
+}
+
+.header .logo {
+  display: block;
+  margin-left: 25%;
+  margin-right: auto;
+  width: 45%;
+}
+
+.header .deskripsi-awal {
+  margin: 5em auto;
+  width: 50%;
+  text-align: center;
+  font-weight: 300;
+}
+
+.header .visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5em auto 0em auto;
+  width: 80%;
+}
+
+.header .visual .line-visual {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  text-align: center;
+  width: 25%;
+  height: 2px;
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.2)), color-stop(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.2)));
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+  margin: 0 auto 0 auto;
+}
+
+.header .visual p {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  margin: 0 -1.5em;
+  font-weight: 100;
+}
+
+.header .deskripsi-visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: -2em auto 0 auto;
+}
+
+.header .deskripsi-visual .visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .deskripsi-visual .satu, .header .deskripsi-visual .dua, .header .deskripsi-visual .tiga {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.header .deskripsi-visual .satu img, .header .deskripsi-visual .dua img, .header .deskripsi-visual .tiga img {
+  width: 25%;
+  height: 25vh;
+}
+
+.header .deskripsi-visual .satu .tema, .header .deskripsi-visual .dua .tema, .header .deskripsi-visual .tiga .tema {
+  font-family: var(--primary-font);
+  font-weight: 100;
+  color: #df9f29;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
+}
+
+.header .deskripsi-visual .satu .tema span, .header .deskripsi-visual .dua .tema span, .header .deskripsi-visual .tiga .tema span {
+  font-size: 2.5rem;
+  color: #c98f25;
+}
+
+.header .deskripsi-visual .satu p, .header .deskripsi-visual .dua p, .header .deskripsi-visual .tiga p {
+  font-size: 1.15rem;
+  margin-bottom: 0.3em;
+  font-family: var(--secondary-font);
+  font-weight: 300;
+}
+
+.header .line-header {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  text-align: center;
+  width: 70%;
+  height: 2px;
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.2)), color-stop(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.2)));
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+  margin: 5.5em auto 5.5em auto;
+}
+
+.header .img-karakter {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.header .deskripsi-karakter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3em;
+  width: 45%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.header .deskripsi-karakter .karakter {
+  text-align: center;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  color: #c98f25;
+  font-size: 2.5rem;
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+.header .deskripsi-karakter .deskripsi-awal-karakter {
+  font-family: var(--secondary-font);
+  text-align: center;
+  font-weight: 300;
+}
+
+.header .deskripsi-karakter h1, .header .deskripsi-karakter h2, .header .deskripsi-karakter h3, .header .deskripsi-karakter h4, .header .deskripsi-karakter p {
+  font-family: var(--primary-font);
+}
+
+.header .deskripsi-karakter h1 {
+  font-size: 3em;
+}
+
+.header .deskripsi-karakter h2 {
+  font-size: 2.5em;
+}
+
+.header .deskripsi-karakter h3 {
+  font-size: 2em;
+}
+
+.header .deskripsi-karakter h4 {
+  font-size: 1.5em;
+}
+
+.header .deskripsi-karakter p {
+  font-size: 1em;
+}
+
+.header .header-akhir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 3em;
+  text-align: center;
+}
+
+.header .header-akhir p {
+  font-weight: 300;
+}
+
+.header .header-akhir .pesan-akhir {
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.4em;
+  margin-bottom: 3em;
+}
+
+.header .header-akhir .pesan-akhir a {
+  text-decoration: none;
+  color: #c98f25;
+  cursor: pointer;
+}
+
+.selingan-satu {
+  width: 100%;
+}
+
+.selingan-satu img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
